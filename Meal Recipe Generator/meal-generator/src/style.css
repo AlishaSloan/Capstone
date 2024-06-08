@@ -1,0 +1,206 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+ /* navbar */
+
+.navbar-header {
+    width: 100%;
+    height: 80px;
+    padding: 15px 25px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0f0736;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.signup_container, .post_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+/* homepage */
+
+.hero {
+    display: flex;
+    background-color: #180d4f;
+    color: #ffc107;
+    height: 70vh;
+    padding-inline: 30px;
+}
+
+.hero-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.hero-text {
+    font-size: 3rem;
+    word-spacing: 1%;
+   
+}
+
+.hero-description {
+    font-size: 1.2rem;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    flex: 1;
+    background: url('Images/food.jpg') top;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    margin-top: 50px;
+    
+
+}
+
+/* sign-up */
+
+.signup_form {
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+}
+.signup_form form input{
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 2px;
+    width: 100%;
+    border: 1px solid rgb(216, 213, 213);
+}
+
+.signup_form form button, .signup_form button {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid rgb(216, 213, 213);
+
+}
+.signup_form form button {
+    background-color: rgb(17, 80, 227);
+    color: white;
+}
+.signup_form button {
+    background-color: rgb(3, 177, 18);
+    color: white;
+}
+.signup_btn {
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.btn_input {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+/* post page */
+
+.post_form {
+    width: 50%;
+    border: 1px solid gray;
+    padding: 20px;
+}
+.post_form input, .post_form textarea, .post_form button {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 8px;
+}
+.post_form .file {
+    border: 1px solid gray;
+}
+.post_form button {
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+
+.posts_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #0f0736;
+    color: White;
+}
+
+.post {
+    width: 80%;
+    margin: 10px;
+    border: 1px #150b46;
+    padding: 10px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    background-color: #1b114b;
+    border-radius: 20px;
+}
+.post img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+.post .post_text {
+    margin-left: 10px;
+}
+.post_post {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 20px 0px;
+    background-color: #180d4f;
+}
+
+.post_post img {
+    width: 75%;
+    height: 350px;
+}
+
+.post_post button {
+    width: 10%;
+}
+
+.post-page {
+    background-color: #180d4f;
+}
+
+h2 {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+p{
+    color: white;
+}
+.recipelog {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}

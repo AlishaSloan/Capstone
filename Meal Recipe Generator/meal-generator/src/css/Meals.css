@@ -1,0 +1,63 @@
+.meals {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #180d4f;
+    padding: 1.5em;
+    
+  
+  }
+  
+  
+  .food-header {
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+
+  p {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  
+  .btn {
+    color: white;
+    flex-direction: center;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    padding: .8em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #ffc107;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    
+  }
+  button:hover {
+    border-color: #646cff;
+  }
+  button:focus,
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+  
+  .foodpic {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-height: 50vh;
+    margin: 0 auto;
+  }
